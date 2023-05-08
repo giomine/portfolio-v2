@@ -1,7 +1,10 @@
 const Hero = () => {
   return (
     <section id="home">
-      <h2>Welcome to my portfolio</h2>
+      <p>Hello, I&apos;m</p>
+      <h1>Giorgia Mineo</h1>
+      <h2>Junior Software Engineer</h2>
+      <p>I build things for the web</p>
     </section>
   )
 }

@@ -32,11 +32,12 @@ section:nth-child(even){
   /* margin: 2vw; */
 }
 
-/* section:nth-child(odd){
-  background-color: #112240;
+section:nth-child(odd){
+  padding: 10px;
+  /* background-color: #112240;
   color: white;
-  border: 1px solid #00C2CB;
-} */
+  border: 1px solid #00C2CB; */
+}
 
 .navbar{
   height: 60px;
