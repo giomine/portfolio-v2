@@ -7,6 +7,10 @@ const About = () => {
       <p>My curiosity, patience, and determination have proven key in my success and an asset in the workplace. I am very excited to bring these qualities to the field of Software Engineering, and I look forward to joining a team that values mentorship, celebrates wins, and is excited about their work.</p>
       
       <div>Tech experience tabs</div>
+      <p>General Assembly</p>
+      <p>Moment One</p>
+      <p>Women Who Code Tokyo</p>
+      <p>Open source</p>
     </section>
   )
 }
