@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -11,39 +13,36 @@ a {
 
 section{
   /* height: 70vh; */
-  display: flex;
+  @include flex-center();
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   /* color: teal; */
-  /* border-top: 1px solid #00C2CB;
+  /* border-top: 1px solid $teal;
   margin: 5vw; */
-  /* background-color: #112240; */
-  background-color: #233554;
-  color: #00C2CB;
+  /* background-color: $textblue; */
+  background-color: $bgblue;
+  color: $teal;
   color: white;
 }
 
 section:nth-child(even){
-  /* background-color: #00C2CB; */
-  background: linear-gradient(160deg, #00C2CB 10%, white 10%);
-  color: #112240;
+  /* background-color: $teal; */
+  background: linear-gradient(160deg, $teal 10%, white 10%);
+  color: $textblue;
   border: 10px solid white;
   /* margin: 2vw; */
 }
 
 section:nth-child(odd){
   padding: 10px;
-  /* background-color: #112240;
+  /* background-color: $textblue;
   color: white;
-  border: 1px solid #00C2CB; */
+  border: 1px solid $teal; */
 }
 
 .navbar{
   height: 60px;
-  display: flex;
+  @include flex-center();
   justify-content: flex-end;
-  align-items: center;
 }
 .navbar a{
   margin: 0 10px;

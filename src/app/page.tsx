@@ -2,6 +2,7 @@ import styles from './page.module.css'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import About from '../components/About'
+import Experience from '../components/Experience'
 import Skills from '../components/Skills'
 import Projects from '../components/Projects'
 import Work from '../components/Work'
@@ -15,6 +16,7 @@ export default function Home() {
       <main>
         <Hero />
         <About />
+        <Experience />
         <Skills />
         <Projects />
         <Work />

@@ -1,0 +1,9 @@
+@mixin flex-center(){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+$bgblue: #233554;
+$textblue: #112240;
+$teal: #00C2CB;
