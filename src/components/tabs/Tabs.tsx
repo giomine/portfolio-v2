@@ -9,7 +9,7 @@ const Tabs = () => {
   const handleClick = (e: React.MouseEvent<HTMLElement>) => {
     e.preventDefault()
     const target = e.target as HTMLElement
-    console.log(target.id)
+    // console.log(target.id)
     setActiveTab(target.id)
     // console.log(target.id)
   }
@@ -27,7 +27,7 @@ const Tabs = () => {
         <Tab
           title='General Assembly Software Engineering Immersive (remote)'
           date='Jan-Apr 2023'
-          tech='HTML | CSS | SASS | Styled Components | JavaScript | TypeScript | React | Next.js APIs | Node.js | Express | MongoDB | Mongoose | Python | Django | PostgreSQL Heroku | Netlify | Git | GitHub | NPM | Pipenv | TablePlus | Insomnia | bcrypt | JWT'
+          tech='HTML | CSS | SASS | Bootstrap | JavaScript | React | APIs | Node.js | Express | MongoDB | Mongoose | Python | Django | PostgreSQL Heroku | Netlify | Git | GitHub | NPM | Pipenv | TablePlus | Insomnia | bcrypt | JWT'
           description='An intense, 12-week bootcamp held remotely. Included daily stand ups, lectures, lab work, pair programming, group and individual projects. Modules included Front End Development with Advanced JavaScript, Full-Stack Development with APIs and MERN stack, and Full-Stack Development with Python, Django, and PostgreSQL.'
           />
       </div>

@@ -10,10 +10,6 @@ const About = () => {
       
       <div>Tech experience tabs</div>
       <Tabs />
-      {/* <p>General Assembly</p>
-      <p>Moment One</p>
-      <p>Women Who Code Tokyo</p>
-      <p>Open source</p> */}
     </section>
   )
 }
