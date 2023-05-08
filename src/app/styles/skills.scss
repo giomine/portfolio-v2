@@ -1,0 +1,46 @@
+@import './variables.scss';
+
+.icons{
+  @include flex-center();
+  flex-wrap: wrap;
+  div{
+    @include flex-center();
+    flex-direction: column;
+    margin: 10px 2px;
+  }
+}
+
+.languages{
+  @include flex-center();
+  div{
+    margin: 10px;
+    width: 100px;
+    height: 90px;
+    // padding: 10px 15px;
+    p {
+      width: 100px;
+      background-color: white;
+    }
+    }
+    .en, .ar, .sv, .jp{
+      @include flex-center();
+      align-items: flex-end;
+      text-align: center;
+      height: 80px;
+      background-size: contain;
+      background-position: top;
+      background-repeat: no-repeat;
+    }
+    .en{
+      background-image: url('/flags/uk.png');
+    }
+    .ar{
+      background-image: url('/flags/egypt.png');
+    }
+    .sv{
+      background-image: url('/flags/sweden.png');
+    }
+    .jp{
+      background-image: url('/flags/japan.png');
+    }
+}
