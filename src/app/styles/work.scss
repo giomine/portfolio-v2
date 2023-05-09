@@ -1,0 +1,23 @@
+@import './variables.scss';
+
+.work-container{
+  margin: 70px 0 80px;
+  div{
+    margin: 10px 0;
+    p{
+      margin: 10px 0;
+    }
+    .date{
+      font-size: 0.95rem;
+    }
+  }
+}
+
+@media(min-width: 660px){
+  .work-container{
+    margin: 40px 0 80px;
+    div{
+      width: 60%;
+    }
+  }
+}
