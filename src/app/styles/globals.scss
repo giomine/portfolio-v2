@@ -30,37 +30,26 @@ h2{
 }
 
 section{
-  /* height: 70vh; */
   @include flex-center();
   flex-direction: column;
-  /* color: teal; */
-  /* border-top: 1px solid $teal;
-  margin: 5vw; */
-  /* background-color: $textblue; */
   background-color: $bgblue;
   color: $teal;
   color: white;
 }
 
 section:nth-child(even){
-  /* background-color: $teal; */
   background: linear-gradient(160deg, $teal 10%, white 10%);
   color: $textblue;
   border: 10px solid white;
-  /* margin: 2vw; */
 }
 
 section:nth-child(odd){
   padding: 10px;
-  /* background-color: $textblue;
-  color: white;
-  border: 1px solid $teal; */
 }
 
 .container{
   width: 80vw;
-  max-width: 1100px;
-  // margin: 20vh 0;
+  max-width: 1000px;
   @include flex-center();
   flex-direction: column;
 }

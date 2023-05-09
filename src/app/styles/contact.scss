@@ -1,0 +1,20 @@
+@import './variables.scss';
+
+.contact-container{
+  margin: 60px 0;
+  width: 85%;
+  p{
+    max-width: 450px;
+    text-align: center;
+    margin: 20px 0;
+  }
+  div{
+    margin: 40px 0 0;
+    a{
+      margin: 10px;
+      img{
+        border-radius: 3px;
+      }
+    }
+  }
+}

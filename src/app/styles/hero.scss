@@ -3,10 +3,10 @@
 .home-container{
   @include flex-center();
   flex-direction: column;
-  height: 70vh;
+  margin: 130px 0;
   
   @media(min-width: 660px){
-    height: 60vh;
+    margin: 200px 0;
     flex-direction: row;
     justify-content: space-between;
   }
