@@ -39,7 +39,7 @@ const Skills = () => {
           <div><Image alt='TypeScript icon' width={50} height={50} src="/icons/typescript.png" /><p>TypeScript</p></div>
         </div>
 
-        <h2>Languages</h2>
+        <h2 className='languages-title'>Languages</h2>
         {/* <p>English | Arabic | Swedish | Japanese</p> */}
         <div className='languages'>
           <div className='en'><p>English</p></div>

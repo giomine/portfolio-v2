@@ -6,15 +6,19 @@
   p{
     max-width: 450px;
     text-align: center;
-    margin: 20px 0;
+    margin: 20px 0 60px;
   }
   div{
-    margin: 40px 0 0;
     a{
       margin: 10px;
       img{
         border-radius: 3px;
       }
+    }
+  }
+  @media (min-width: 660px){
+    h2{
+      width: 450px;
     }
   }
 }

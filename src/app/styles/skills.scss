@@ -3,9 +3,8 @@
 .skills-container{
   margin: 40px 0 80px;
   h2{
-    margin: 60px 0 20px;
+    margin: 60px 0 40px;
     width: 100%;
-    text-align: center;
     @media (max-width: 660px){
       &:first-of-type{
         text-align: right;
@@ -31,6 +30,7 @@
     font-size: 0.7rem;
   }
 }
+
 
 .languages{
   @include flex-center();
@@ -67,5 +67,13 @@
   }
   .jp{
     background-image: url('/flags/japan.png');
+  }
+}
+
+@media (min-width: 660px){
+  .languages-title{
+    width: 230px !important;
+    text-align: center;
+    margin-bottom: 20px !important;
   }
 }

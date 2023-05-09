@@ -2,6 +2,15 @@
 
 .projects-container{
   margin: 40px 0 80px;
+  h2{
+    text-align: right;
+    width: 95vw;
+  }
+  @media (min-width: 660px){
+    h2{
+      max-width: 1000px;
+    }
+  }
 }
 
 .left-container, .right-container{

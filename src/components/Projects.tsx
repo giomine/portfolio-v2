@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section id="projects">
       <div className="container projects-container">
-        <h2>Projects</h2>
+      <h2>Projects</h2>
         <LeftAlign 
           image="/assets/sweden.png"
           title="Discover Sweden"

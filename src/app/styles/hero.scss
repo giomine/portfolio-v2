@@ -4,6 +4,10 @@
   @include flex-center();
   flex-direction: column;
   margin: 130px 0;
+
+  h2{
+    border-bottom: 2px solid $teal;
+  }
   
   @media(min-width: 660px){
     margin: 200px 0;

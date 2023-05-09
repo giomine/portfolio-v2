@@ -1,7 +1,10 @@
 @import './variables.scss';
 
 .hobbies-container{
-  margin: 70px 0 80px;
+  margin: 70px 0 100px;
+  h2{
+    text-align: right;
+  }
   .grid{
     display: grid;
     div{
@@ -13,7 +16,6 @@
       text-align: justify;
     }
     div{
-      margin: 15px 0;
       h3{
         margin: 20px 0;
       }
