@@ -2,8 +2,13 @@
 
 .work-container{
   margin: 70px 0 80px;
+  h2{
+    width: 100%;
+    text-align: right;
+  }
   div{
     margin: 10px 0;
+    text-align: right;
     p{
       margin: 10px 0;
     }
@@ -16,8 +21,12 @@
 @media(min-width: 660px){
   .work-container{
     margin: 40px 0 80px;
+    h2{
+      text-align: center;
+    }
     div{
       width: 60%;
+      text-align: center;
     }
   }
 }
