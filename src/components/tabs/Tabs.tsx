@@ -14,7 +14,7 @@ const Tabs = () => {
 
 
   return (
-    <div className='tabs-container'>
+    <div className='container tabs-container'>
       <div className='buttons-container'>
         <button id='1' onClick={handleClick} className={activeTab === '1' ? 'active' : ''}>General</button>
         <button id='2' onClick={handleClick} className={activeTab === '2' ? 'active' : ''}>Moment</button>

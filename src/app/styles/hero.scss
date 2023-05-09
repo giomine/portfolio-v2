@@ -1,0 +1,25 @@
+@import './variables.scss';
+
+.home-container{
+  @include flex-center();
+  flex-direction: column;
+  height: 70vh;
+  
+  @media(min-width: 660px){
+    height: 60vh;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .photo{
+    display: none;
+    border-radius: 50%;
+    background-image: url('/assets/photo.png'); 
+    background-size: cover;
+    height: 150px; 
+    width: 150px;
+    @media(min-width: 660px){
+      height: 250px; 
+      width: 250px;
+    }
+  }
+}

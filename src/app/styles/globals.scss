@@ -11,6 +11,23 @@ a {
   text-decoration: none;
 }
 
+
+h1 {
+  font-size: 2.7rem;
+  margin: 10px 0;
+}
+h2{
+  margin: 10px 0 20px;
+}
+@media (min-width:660px){
+  h1 {
+    font-size: 4.2rem;
+  }
+  h2{
+    font-size: 3.5rem;
+  }
+}
+
 section{
   /* height: 70vh; */
   @include flex-center();
@@ -37,6 +54,14 @@ section:nth-child(odd){
   /* background-color: $textblue;
   color: white;
   border: 1px solid $teal; */
+}
+
+.container{
+  width: 80vw;
+  max-width: 1100px;
+  // margin: 20vh 0;
+  @include flex-center();
+  flex-direction: column;
 }
 
 .navbar{

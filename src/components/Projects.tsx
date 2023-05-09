@@ -4,11 +4,13 @@ import RightAlign from "./projects/rightAlign"
 const Projects = () => {
   return (
     <section id="projects">
-      <div>Projects</div>
-      <LeftAlign />
-      <RightAlign />
-      <LeftAlign />
-      <RightAlign />
+      <div className="container">
+        <div>Projects</div>
+        <LeftAlign />
+        <RightAlign />
+        <LeftAlign />
+        <RightAlign />
+      </div>
     </section>
   )
 }
