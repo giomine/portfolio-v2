@@ -1,12 +1,23 @@
 @import './variables.scss';
 
+.skills-container{
+  margin: 40px 0 80px;
+  h2{
+    margin: 60px 0 20px;
+  }
+  div{
+    margin: 10px 0;
+  }
+}
+
 .icons{
   @include flex-center();
   flex-wrap: wrap;
-  div{
+  div, p{
     @include flex-center();
     flex-direction: column;
-    margin: 10px 2px;
+    margin: 10px 5px;
+    font-size: 0.7rem;
   }
 }
 
@@ -14,33 +25,36 @@
   @include flex-center();
   div{
     margin: 10px;
-    width: 100px;
-    height: 90px;
-    // padding: 10px 15px;
+    width: 40px;
     p {
       width: 100px;
       background-color: white;
+      font-size: 0.7rem;
+      padding-top: 10px;
     }
-    }
-    .en, .ar, .sv, .jp{
+  }
+  .en, .ar, .sv, .jp{
+    @include flex-center();
+    align-items: flex-end;
+    text-align: center;
+    height: 55px;
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    p{
       @include flex-center();
-      align-items: flex-end;
-      text-align: center;
-      height: 80px;
-      background-size: contain;
-      background-position: top;
-      background-repeat: no-repeat;
     }
-    .en{
-      background-image: url('/flags/uk.png');
-    }
-    .ar{
-      background-image: url('/flags/egypt.png');
-    }
-    .sv{
-      background-image: url('/flags/sweden.png');
-    }
-    .jp{
-      background-image: url('/flags/japan.png');
-    }
+  }
+  .en{
+    background-image: url('/flags/uk.png');
+  }
+  .ar{
+    background-image: url('/flags/egypt.png');
+  }
+  .sv{
+    background-image: url('/flags/sweden.png');
+  }
+  .jp{
+    background-image: url('/flags/japan.png');
+  }
 }
