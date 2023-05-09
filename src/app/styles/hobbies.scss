@@ -1,0 +1,23 @@
+@import './variables.scss';
+
+.hobbies-container{
+  margin: 70px 0 80px;
+  max-width: 900px;
+  .grid{
+    display: grid;
+    div{
+      max-width: 500px;
+    }
+    @media (min-width: 1000px){
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 0 90px;
+      text-align: justify;
+    }
+    div{
+      margin: 15px 0;
+      h3{
+        margin: 20px 0;
+      }
+    }
+  }
+}
