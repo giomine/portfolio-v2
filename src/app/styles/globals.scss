@@ -41,7 +41,6 @@ section{
   @include flex-center();
   flex-direction: column;
   background-color: $bgblue;
-  color: $teal;
   color: white;
 }
 
@@ -77,6 +76,8 @@ section:nth-child(odd){
   height: 60px;
   @include flex-center();
   justify-content: flex-end;
+  background-color: $bgblue;
+  color: darken($white, 25%);
 }
 .navbar a{
   margin: 0 10px;
