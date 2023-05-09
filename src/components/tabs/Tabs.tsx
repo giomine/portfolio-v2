@@ -14,10 +14,10 @@ const Tabs = () => {
 
 
   return (
-    <div className='container tabs-container'>
+    <div className='tabs-container'>
       <div className='buttons-container'>
-        <button id='1' onClick={handleClick} className={activeTab === '1' ? 'active' : ''}>General</button>
-        <button id='2' onClick={handleClick} className={activeTab === '2' ? 'active' : ''}>Moment</button>
+        <button id='1' onClick={handleClick} className={activeTab === '1' ? 'active' : ''}>General Assembly</button>
+        <button id='2' onClick={handleClick} className={activeTab === '2' ? 'active' : ''}>Moment One</button>
         <button id='3' onClick={handleClick} className={activeTab === '3' ? 'active' : ''}>Women Who Code</button>
         <button id='4' onClick={handleClick} className={activeTab === '4' ? 'active' : ''}>Open Source</button>
       </div>

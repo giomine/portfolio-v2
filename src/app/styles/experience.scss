@@ -1,9 +1,24 @@
 @import './variables.scss';
 
+.experience-container{
+  margin: 40px 0;
+  h2{
+    margin-bottom: 40px;
+  }
+  @media (min-width: 660px){
+    h2{
+      width: 650px;
+      text-align: left;
+    }
+  }
+}
+
 .tabs-container{
   @include flex-center();
+  justify-content: flex-start;
   flex-direction: column;
   @media (min-width: 660px){
+    height: 400px;
     flex-direction: row;
   }
 }
@@ -11,17 +26,18 @@
 .buttons-container{
   @include flex-center();
   justify-content: flex-start;
+  height: 100%;
+  margin-bottom: 40px;
   
   @media (min-width: 660px){
-    height: 300px;
     flex-direction: column;
+    margin-bottom: 0;
   }
   
   button{
     text-align: left;
     border: none;
     border-radius: 3px 3px 1px 1px;
-    // border-radius: 3px;
     background-color: $bgblue;
     color: white;
     padding: 10px;
@@ -41,8 +57,12 @@
 }
 
 .tab{
+  p{
+    margin: 10px 0;
+  }
   @media (min-width: 660px){
-    height: 300px;
+    height: 100%;
+    margin: 10px 0 10px 20px;
   }
   div{
     display: flex;

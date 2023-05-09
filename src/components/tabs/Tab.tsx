@@ -12,10 +12,10 @@ const Tab: NextPage<Props> = (props) => {
   const { title, date, tech, description } = props
   return (
     <div>
-      <div>{title}</div>
-      <div>{date}</div>
-      <div>{tech}</div>
-      <div>{description}</div>
+      <h3>{title}</h3>
+      <p>{date}</p>
+      <p>{tech}</p>
+      <p>{description}</p>
     </div>
   )
 }
