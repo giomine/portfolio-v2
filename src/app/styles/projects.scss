@@ -1,0 +1,85 @@
+@import './variables.scss';
+
+.projects-container{
+  margin: 40px 0 80px;
+}
+
+.left-container, .right-container{
+  @include flex-center();
+  align-items: flex-start;
+  background-color: lighten($bgblue, 10%);
+  padding: 10px 2.5vw;
+  margin: 20px 0;
+  width: 95vw;
+
+  .text{
+    @include flex-center();
+    flex-direction: column;
+    padding: 15px 0;
+    h3, p{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  .photo{
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: top;
+    height: 220px;
+    width: 90vw; 
+  }
+  
+  div{
+    width: 100%;
+  }
+}
+.right-container{
+  flex-direction: column-reverse;
+}
+
+@media (min-width: 660px){
+  .left-container, .right-container{
+    .photo{
+      width: 100%;
+    }
+  }
+}
+
+
+
+@media(min-width: 1000px){
+  .left-container, .right-container{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 30px;
+    .text{
+      padding: 0;
+    }
+  }
+  .left-container{
+    text-align: right;
+    .photo{
+      background-position: left;
+    }
+    .text{
+      align-items: flex-end;
+      margin-left: 20px;
+      p{
+        max-width: 400px;
+      }
+    }
+  }
+  .right-container{
+    text-align: left;
+    .photo{
+      background-position: right;
+    }
+    .text{
+      align-items: flex-start;
+      margin-right: 20px;
+      p{
+        max-width: 400px;
+      }
+    }
+  }
+}
