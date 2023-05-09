@@ -19,8 +19,11 @@
 
 .icons{
   @include flex-center();
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
+  @media (min-width: 660px){
+    justify-content: space-between;
+  }
   div, p{
     @include flex-center();
     flex-direction: column;
