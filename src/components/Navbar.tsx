@@ -15,7 +15,7 @@ export default function Navbar(){
   return (
     <>
       <div className="navbar-sm">
-        <div className='burger' onClick={handleClick}>Burger</div>
+        <div className='burger' onClick={handleClick}></div>
         { dropdown === true ? 
         (
         <div className='nav-links'>
