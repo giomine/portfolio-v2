@@ -20,6 +20,7 @@
   padding: 10px 2.5vw;
   margin: 20px 0;
   width: 95vw;
+  border-left: 2px solid $thinteal;
 
   a:not(.buttons a){
     width: 100%;
@@ -42,20 +43,43 @@
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: top;
-    min-height: 200px;
+    height: 300px;
     width: 90vw; 
     cursor: pointer;
+    // .overlay{
+    //   height: calc(100% - 10%);
+    //   width: inherit;
+    //   top: 15px;
+    //   background-color: $thinteal;
+    //   position: relative;
+    // }
+    &:hover{
+      transform: scale(1.05);
+      transform: translate(-1px, -1px);
+      // .overlay{
+      //   display: none;
+      // }
+    }
   }
   .buttons{
     @include flex-center();
-    justify-content: space-around;
+    justify-content: space-evenly;
     button{
       border: none;
       border-radius: 3px;
       background-color: white;
       width: 120px;
       height: 35px;
+      font-size: 0.8rem;
       cursor: pointer;
+      background-color: $bgblue;
+      border-bottom: 3px solid $teal;
+      color: $white; 
+      // box-shadow: 0 0 0.5rem 0.01rem $white;
+    }
+    button:hover{
+      transform: scale(1.05);
+      transform: translate(-1px, -1px);
     }
   }
   
@@ -70,28 +94,24 @@
 
 
 
-@media (max-width: 330px){
+@media (max-width: 535px){
   .buttons{
     margin-top: -40px;
   }
 }
-@media (min-width: 400px){
+@media (max-width: 490px){
   .buttons{
-    margin-top: 20px;
-    justify-content: space-between;
-    width: 378px !important;
-    button{
-      height: 30px !important;
-    }
+    margin-top: -60px;
   }
 }
-
-
-@media (min-width: 660px){
-  .left-container, .right-container{
-    .photo{
-      width: 100%;
-    }
+@media (max-width: 415px){
+  .buttons{
+    margin-top: -100px;
+  }
+}
+@media (min-width: 600px){
+  .buttons{
+    margin-top: 20px;
   }
 }
 
@@ -103,10 +123,13 @@
     justify-content: space-between;
     padding: 20px 30px;
     .buttons{
-      width: 378px;
+      justify-content: space-around;
     }
     .text{
       padding: 0;
+    }
+    .photo{
+      width: 500px;
     }
   }
   .left-container{
@@ -126,6 +149,8 @@
     }
   }
   .right-container{
+    border: none;
+    border-right: 2px solid $thinteal;
     text-align: left;
     .photo-buttons{
       align-items: flex-end;
