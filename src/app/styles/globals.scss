@@ -71,14 +71,3 @@ section:nth-child(odd){
   @include flex-center();
   flex-direction: column;
 }
-
-.navbar{
-  height: 60px;
-  @include flex-center();
-  justify-content: flex-end;
-  background-color: $bgblue;
-  color: darken($white, 25%);
-}
-.navbar a{
-  margin: 0 10px;
-}
