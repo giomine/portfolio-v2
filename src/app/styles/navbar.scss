@@ -29,7 +29,6 @@
       align-items: flex-end;
     }
     .burger{
-      // padding-top: 20px;
       position: relative;
       z-index: 2;
       margin-top: 10px;
@@ -38,6 +37,7 @@
       background-size: cover;
       height: 60px;
       width: 60px;
+      cursor: pointer;
     }
     .nav-links{
       background-color: lighten($bgblue, 5%);

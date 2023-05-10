@@ -5,11 +5,10 @@ import Link from "next/link"
 
 export default function Navbar(){
 
-  const [ dropdown, setDropdown ] = useState(true)
+  const [ dropdown, setDropdown ] = useState(false)
 
   const handleClick = () => {
     setDropdown(!dropdown)
-    console.log(dropdown)
   }
 
   return (
