@@ -1,18 +1,29 @@
 import { NextPage } from "next"
-import Image from "next/image"
+import Link from "next/link"
 
 interface Props {
   image: string
   title: string
   tech: string
   description: string
+  codelink: string
+  sitelink: string
 }
 
 const LeftAlign: NextPage<Props> = (props) => {
-  const { title, image, tech, description } = props
+  const { title, image, tech, description, codelink, sitelink } = props
   return (
     <div className="container left-container">
-      <div className="photo" style={{ backgroundImage: `url('${image}')` }}></div>
+      <Link target="_blank" href={sitelink}>
+        <div className="photo-buttons">
+          <div className="photo" style={{ backgroundImage: `url('${image}')` }}></div>
+          <div className="buttons">
+            <Link target="_blank" href={codelink}><button>Code</button></Link>
+            <Link target="_blank" href={sitelink}><button>Site</button></Link>
+          </div>
+        </div>
+      </Link>
+
       <div className="text">
         <h3>{title}</h3>
         <p>{tech}</p>

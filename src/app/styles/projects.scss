@@ -21,6 +21,10 @@
   margin: 20px 0;
   width: 95vw;
 
+  a:not(.buttons a){
+    width: 100%;
+  }
+
   .text{
     @include flex-center();
     flex-direction: column;
@@ -30,21 +34,58 @@
       margin-bottom: 10px;
     }
   }
+  .photo-buttons{
+    @include flex-center();
+    flex-direction: column;
+  }
   .photo{
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: top;
-    height: 220px;
+    min-height: 200px;
     width: 90vw; 
+    cursor: pointer;
+  }
+  .buttons{
+    @include flex-center();
+    justify-content: space-around;
+    button{
+      border: none;
+      border-radius: 3px;
+      background-color: white;
+      width: 120px;
+      height: 35px;
+      cursor: pointer;
+    }
   }
   
   div{
     width: 100%;
   }
+
 }
 .right-container{
   flex-direction: column-reverse;
 }
+
+
+
+@media (max-width: 330px){
+  .buttons{
+    margin-top: -40px;
+  }
+}
+@media (min-width: 400px){
+  .buttons{
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 378px !important;
+    button{
+      height: 30px !important;
+    }
+  }
+}
+
 
 @media (min-width: 660px){
   .left-container, .right-container{
@@ -61,12 +102,18 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 20px 30px;
+    .buttons{
+      width: 378px;
+    }
     .text{
       padding: 0;
     }
   }
   .left-container{
     text-align: right;
+    .photo-buttons{
+      align-items: flex-start;
+    }
     .photo{
       background-position: left;
     }
@@ -80,6 +127,9 @@
   }
   .right-container{
     text-align: left;
+    .photo-buttons{
+      align-items: flex-end;
+    }
     .photo{
       background-position: right;
     }
