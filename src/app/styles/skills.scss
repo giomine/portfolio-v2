@@ -3,7 +3,7 @@
 .skills-container{
   margin: 40px 0 80px;
   h2{
-    margin: 60px 0 40px;
+    margin: 20px 0 40px;
     width: 100%;
     @media (max-width: 660px){
       &:first-of-type{
@@ -70,6 +70,9 @@
   }
 }
 
+.languages-title{
+  margin-top: 40px !important;
+}
 @media (min-width: 660px){
   .languages-title{
     width: 230px !important;
