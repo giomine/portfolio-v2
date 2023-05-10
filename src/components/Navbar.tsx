@@ -34,7 +34,7 @@ export default function Navbar(){
 
       <div className="navbar-lg">
         <div className='container'>
-          <div>Logo</div>
+          <div className='brand'></div>
           <div className='link-container'>
             <Link href={'#about'}>About</Link>
             <Link href={'#experience'}>Experience</Link>

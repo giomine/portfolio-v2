@@ -16,7 +16,7 @@
     flex-direction: column;
     justify-content: flex-start;
     background-color: $bgblue;
-    color: darken($white, 25%);
+    color: $white;
     position: absolute;
     right: 0;
     padding: 0 0 20px;
@@ -86,6 +86,13 @@
     .container{
       flex-direction: row;
       justify-content: space-between;
+      .brand{
+        background-image: url('/letter-g.png');
+        background-size: cover;
+        background-position: center;
+        height: 35px;
+        width: 35px;
+      }
       .link-container{
         display: flex;
         justify-content: space-between;
@@ -95,6 +102,9 @@
     height: 60px;
     @include flex-center();
     background-color: $bgblue;
-    color: darken($white, 25%);
+    color: darken($white, 20%);
+    a:hover{
+      color: $white;
+    }
   }
 }
