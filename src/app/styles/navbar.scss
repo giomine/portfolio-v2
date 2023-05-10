@@ -54,6 +54,11 @@
     }
   }
 }
+@media(min-width: 660px){
+  .nav-links{
+    padding-bottom: 318px !important;
+  }
+}
 @media(max-width: 367px){
   .nav-links{
     padding-bottom: 144px !important;
