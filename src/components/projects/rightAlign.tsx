@@ -16,7 +16,7 @@ const RightAlign: NextPage<Props> = (props) => {
     <div className="container right-container">
       <div className="text">
         <h3>{title}</h3>
-        <p>{tech}</p>
+        <p className="tech">{tech}</p>
         <p>{description}</p>
       </div>
 

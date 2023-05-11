@@ -26,7 +26,7 @@ const LeftAlign: NextPage<Props> = (props) => {
 
       <div className="text">
         <h3>{title}</h3>
-        <p>{tech}</p>
+        <p className="tech">{tech}</p>
         <p>{description}</p>
       </div>
     </div>

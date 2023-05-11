@@ -2,9 +2,16 @@
 
 .projects-container{
   margin: 40px 0 80px;
+  .tech{
+    font-size: $smallerfont;
+    color: darken($white, 6%);
+  }
   h2{
     text-align: right;
     width: 95vw;
+  }
+  h3{
+    font-size: 1.3rem;
   }
   @media (min-width: 660px){
     h2{

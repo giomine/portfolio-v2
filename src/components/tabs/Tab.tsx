@@ -13,8 +13,8 @@ const Tab: NextPage<Props> = (props) => {
   return (
     <div>
       <h3>{title}</h3>
-      <p>{date}</p>
-      <p>{tech}</p>
+      <p className="tech no-mb">{date}</p>
+      <p className="tech">{tech}</p>
       <p>{description}</p>
     </div>
   )
