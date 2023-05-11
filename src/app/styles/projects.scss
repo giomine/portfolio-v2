@@ -61,8 +61,8 @@
     //   position: relative;
     // }
     &:hover{
-      transform: scale(1.05);
-      transform: translate(-1px, -1px);
+      transform: scale(1.01);
+      transition: transform 0.2s;
       // .overlay{
       //   display: none;
       // }
@@ -75,7 +75,6 @@
       @include flex-center();
       border: none;
       border-radius: 3px;
-      background-color: white;
       width: 120px;
       height: 35px;
       font-size: 0.8rem;
@@ -97,8 +96,9 @@
       }
     }
     button:hover{
-      transform: scale(1.05);
-      transform: translate(-1px, -1px);
+      background-color: darken($bgblue, 10%);
+      transform: scale(1.02);
+      transition: background-color 0.1s;
     }
   }
   
@@ -133,13 +133,6 @@
     margin-top: -100px;
   }
 }
-// @media (min-width: 600px){
-//   .buttons{
-//     margin-top: 20px;
-//   }
-// }
-
-
 
 @media(min-width: 1000px){
   .left-container, .right-container{
@@ -161,9 +154,6 @@
     .photo-buttons{
       align-items: flex-start;
     }
-    // .photo{
-      // background-position: left;
-    // }
     .text{
       align-items: flex-end;
       margin-left: 20px;
@@ -179,9 +169,6 @@
     .photo-buttons{
       align-items: flex-end;
     }
-    // .photo{
-      // background-position: right;
-    // }
     .text{
       align-items: flex-start;
       margin-right: 20px;
