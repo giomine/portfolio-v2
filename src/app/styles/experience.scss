@@ -56,6 +56,11 @@
     @media (min-width: 660px){
       width: 150px
     }
+    &:hover{
+      background-color: lighten($bgblue, 5%);
+      border-left: 3px solid $teal;
+      padding-left: 7px;
+    }
   }
   button.active{
     background-color: lighten($bgblue, 10%);
@@ -63,6 +68,7 @@
     @media (min-width: 660px){
       border-bottom: none;
       border-left: 3px solid $teal;
+      padding-left: 7px;
     }
   }
 }
