@@ -45,28 +45,28 @@
       padding-top: 70px;
       padding-bottom: 60px;
       padding-right: 40px;
-      padding-bottom: 92px;
+      padding-bottom: 192px;
       position: absolute;
       z-index: 1;
       @media (min-width: 496px){
-        padding-bottom: 53px;
+        padding-bottom: 153px;
       }
     }
   }
 }
 @media(min-width: 660px){
   .nav-links{
-    padding-bottom: 269px !important;
+    padding-bottom: 369px !important;
   }
 }
 @media(max-width: 367px){
   .nav-links{
-    padding-bottom: 144px !important;
+    padding-bottom: 244px !important;
   }
 }
 @media(max-width: 311px){
   .nav-links{
-    padding-bottom: 183px !important;
+    padding-bottom: 283px !important;
   }
 }
 

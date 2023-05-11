@@ -22,8 +22,8 @@ export default function Navbar(){
           <Link onClick={handleClick} href={'#experience'}>Experience</Link>
           <Link onClick={handleClick} href={'#skills'}>Skills</Link>
           <Link onClick={handleClick} href={'#projects'}>Projects</Link>
-          <Link onClick={handleClick} href={'#work'}>Work</Link>
-          <Link onClick={handleClick} href={'#hobbies'}>Hobbies</Link>
+          {/* <Link onClick={handleClick} href={'#work'}>Work</Link> */}
+          {/* <Link onClick={handleClick} href={'#hobbies'}>Hobbies</Link> */}
           <Link onClick={handleClick} href={'#contact'}>Contact</Link>
         </div>
         )
@@ -39,8 +39,8 @@ export default function Navbar(){
             <Link href={'#experience'}>Experience</Link>
             <Link href={'#skills'}>Skills</Link>
             <Link href={'#projects'}>Projects</Link>
-            <Link href={'#work'}>Work</Link>
-            <Link href={'#hobbies'}>Hobbies</Link>
+            {/* <Link href={'#work'}>Work</Link> */}
+            {/* <Link href={'#hobbies'}>Hobbies</Link> */}
             <Link href={'#contact'}>Contact</Link>
           </div>
         </div>
