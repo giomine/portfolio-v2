@@ -1,14 +1,15 @@
 import '../app/styles/hero.scss'
+import 'animate.css';
 
 const Hero = () => {
   return (
     <section id="home">
       <div className='container home-container'>
         <div className='hello'>
-          <p>Hello, I&apos;m</p>
-          <h1>Giorgia Mineo</h1>
-          <h2>Junior Software Engineer</h2>
-          <p>I build things for the web</p>
+          <p className='animate__animated animate__fadeInDown'>Hello, I&apos;m</p>
+          <h1 className='animate__animated animate__fadeIn'>Giorgia Mineo</h1>
+          <h2 className='animate__animated animate__fadeIn'>Junior Software Engineer</h2>
+          <p className='animate__animated animate__fadeInUp'>I build things for the web</p>
         </div>
 
         <div className='photo'></div>
