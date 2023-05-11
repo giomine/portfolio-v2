@@ -11,6 +11,29 @@
   }
 
   //* style mobile nav
+  .brand{
+    // *v1 - left-aligned
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 10vw;
+    top: 25px;
+    background-image: url('/letter-g.png');
+    background-size: cover;
+    background-position: center;
+
+    // *v2 - on top of burger
+    // height: 20px;
+    // width: 20px;
+    // position: absolute;
+    // right: 47px;
+    // top: 30px;
+    // background-image: url('/letter-g.png');
+    // background-size: cover;
+    // background-position: center;
+    // z-index: 3;
+    // opacity: 0.9;
+  }
   .navbar-sm{
     @include flex-center();
     flex-direction: column;

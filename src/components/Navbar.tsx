@@ -13,6 +13,7 @@ export default function Navbar(){
 
   return (
     <>
+        <div className='brand'></div>
       <div className="navbar-sm">
         <div className='burger' onClick={handleClick}></div>
         { dropdown === true ? 
