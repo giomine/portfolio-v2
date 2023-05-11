@@ -27,7 +27,6 @@
   padding: 10px 2.5vw;
   margin: 20px 0;
   width: 95vw;
-  // border-left: 2px solid $thinteal;
 
   a:not(.buttons a){
     width: 100%;
@@ -48,13 +47,15 @@
   .photo-buttons{
     @include flex-center();
     flex-direction: column;
+    a{
+      display: flex;
+      justify-content: center;
+    }
   }
-  .photo{
-    background-size: contain;
-    background-repeat: no-repeat; 
-    background-position: top;
-    height: 300px;
-    width: 90vw; 
+  .photos{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     // .overlay{
     //   height: calc(100% - 10%);
@@ -66,14 +67,20 @@
     &:hover{
       transform: scale(1.01);
       transition: transform 0.2s;
+      box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.7);
       // .overlay{
       //   display: none;
       // }
+    }
+    img{
+      width: 100%;
+      height: 100%;
     }
   }
   .buttons{
     @include flex-center();
     justify-content: space-evenly;
+    margin-top: 20px;
     button{
       @include flex-center();
       border: none;
@@ -83,9 +90,7 @@
       font-size: 0.8rem;
       cursor: pointer;
       background-color: $bgblue;
-      // border-bottom: 3px solid $teal;
       color: $white; 
-      // box-shadow: 0 0 0.5rem 0.01rem $white;
       .logo{
         background-image: url('/github-white.png');
         background-position: center;
@@ -112,29 +117,6 @@
 }
 .right-container{
   flex-direction: column-reverse;
-}
-
-
-
-@media (max-width: 1000px){
-  .buttons{
-    margin-top: 20px;
-  }
-}
-@media (max-width: 535px){
-  .buttons{
-    margin-top: -40px;
-  }
-}
-@media (max-width: 490px){
-  .buttons{
-    margin-top: -60px;
-  }
-}
-@media (max-width: 415px){
-  .buttons{
-    margin-top: -100px;
-  }
 }
 
 @media(min-width: 1000px){
