@@ -129,9 +129,9 @@
     height: 60px;
     @include flex-center();
     background-color: $bgblue;
-    color: darken($white, 20%);
+    color: darken($white, 10%);
     a:hover{
-      color: $white;
+      color: white;
     }
   }
 }
