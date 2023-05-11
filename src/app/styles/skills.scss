@@ -3,13 +3,24 @@
 .skills-container{
   margin: 40px 0 80px;
   h2{
-    margin: 20px 0 40px;
+    margin: 20px 0 30px;
     width: 100%;
     @media (max-width: 660px){
       &:first-of-type{
         text-align: right;
       }
     }
+  }
+  .skills-title{
+    display: flex;
+    justify-content: flex-end;
+  }
+  h3{
+    border-bottom: 2px solid $thinteal;
+    width: fit-content;
+    margin-top: 20px;
+    color: rgba(0,0,0,0.8);
+    letter-spacing: 1.5px;
   }
   div{
     margin: 10px 0;
@@ -74,6 +85,12 @@
   margin-top: 40px !important;
 }
 @media (min-width: 660px){
+  .skills-title{
+    justify-content: flex-start !important;
+    h{
+      margin-top: 20px;
+    }
+  }
   .languages-title{
     width: 230px !important;
     text-align: center;
