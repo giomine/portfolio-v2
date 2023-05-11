@@ -14,15 +14,13 @@ const LeftAlign: NextPage<Props> = (props) => {
   const { title, image, tech, description, codelink, sitelink } = props
   return (
     <div className="container left-container">
-      <Link target="_blank" href={sitelink}>
         <div className="photo-buttons">
-          <div className="photo" style={{ backgroundImage: `url('${image}')` }}></div>
+          <Link className="photo" style={{ backgroundImage: `url('${image}')` }} target="_blank" href={sitelink}></Link>
           <div className="buttons">
             <Link target="_blank" href={codelink}><button><div className="logo"></div>ReadMe</button></Link>
             <Link target="_blank" href={sitelink}><button><div className="logo leave"></div>Site</button></Link>
           </div>
         </div>
-      </Link>
 
       <div className="text">
         <h3>{title}</h3>
