@@ -53,22 +53,30 @@
     color: white;
     padding: 10px;
     margin: 2px;
-    @media (min-width: 660px){
-      width: 150px
-    }
     &:hover{
       background-color: lighten($bgblue, 5%);
-      border-left: 3px solid $teal;
-      padding-left: 7px;
+      border-bottom: 3px solid $teal;
+      padding-bottom: 7px;
+    }
+    @media (min-width: 660px){
+      width: 150px;
+      &:hover{
+        border-bottom: none;
+        border-left: 3px solid $teal;
+        padding-bottom: 10px;
+        padding-left: 7px;
+      }
     }
   }
   button.active{
     background-color: lighten($bgblue, 10%);
     border-bottom: 3px solid $teal;
+    padding-bottom: 7px;
     @media (min-width: 660px){
       border-bottom: none;
       border-left: 3px solid $teal;
       padding-left: 7px;
+      padding-bottom: 10px;
     }
   }
 }
