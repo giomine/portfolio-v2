@@ -10,7 +10,7 @@ const Projects = () => {
         <LeftAlign 
           image="/assets/sweden.png"
           title="Discover Sweden"
-          tech="React, JSX,  SASS, Cloudinary, React-mapbox-gl, Python, Django, PostrgreSQL, Psycopg2-binary, Pylint, Django REST framework, Pyjwt, Insomnia, TablePlus, Heroku, Trello, Excalidraw, QuickDBD"
+          tech="React, JSX,  SASS, Cloudinary, React-mapbox-gl, Python, Django, PostgreSQL, Psycopg2-binary, Pylint, Django REST framework, Pyjwt, Insomnia, TablePlus, Heroku, Trello, Excalidraw, QuickDBD"
           description="A full-stack, full-CRUD app using React on the frontend with Django and PostgreSQL on the backend. I wanted to create an app around the theme of exploration, so I created a platform where users can discover more about Sweden. I implemented Mapbox so that users can search both by browsing entries or by exploring the map directly, and Cloudinary so that users can upload photos of places they discover. I added 13 populated user accounts to create a lively atmosphere for the platform, encouraging visitors to get involved."
           codelink="https://github.com/giomine/sweden/#readme"
           sitelink="https://discover-sweden.herokuapp.com/"

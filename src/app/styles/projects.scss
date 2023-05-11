@@ -20,7 +20,7 @@
   padding: 10px 2.5vw;
   margin: 20px 0;
   width: 95vw;
-  border-left: 2px solid $thinteal;
+  // border-left: 2px solid $thinteal;
 
   a:not(.buttons a){
     width: 100%;
@@ -74,7 +74,7 @@
       font-size: 0.8rem;
       cursor: pointer;
       background-color: $bgblue;
-      border-bottom: 3px solid $teal;
+      // border-bottom: 3px solid $teal;
       color: $white; 
       // box-shadow: 0 0 0.5rem 0.01rem $white;
       .logo{
@@ -161,8 +161,8 @@
     }
   }
   .right-container{
-    border: none;
-    border-right: 2px solid $thinteal;
+    // border: none;
+    // border-right: 2px solid $thinteal;
     text-align: left;
     .photo-buttons{
       align-items: flex-end;
