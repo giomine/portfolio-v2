@@ -68,28 +68,28 @@
       padding-top: 70px;
       padding-bottom: 60px;
       padding-right: 40px;
-      padding-bottom: 192px;
+      padding-bottom: 182px;
       position: absolute;
       z-index: 1;
       @media (min-width: 496px){
-        padding-bottom: 153px;
+        padding-bottom: 143px;
       }
     }
   }
 }
 @media(min-width: 660px){
   .nav-links{
-    padding-bottom: 369px !important;
+    padding-bottom: 359px !important;
   }
 }
 @media(max-width: 367px){
   .nav-links{
-    padding-bottom: 244px !important;
+    padding-bottom: 234px !important;
   }
 }
 @media(max-width: 311px){
   .nav-links{
-    padding-bottom: 283px !important;
+    padding-bottom: 273px !important;
   }
 }
 
