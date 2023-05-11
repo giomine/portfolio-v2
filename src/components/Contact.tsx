@@ -10,7 +10,7 @@ const Contact = () => {
 
         <div>
           <a target="_blank" href="https://www.linkedin.com/in/giorgia-rm/"><Image alt={'linkedin'} src={'/icons/linkedin.png'} height={30} width={30} /></a>
-          <a target="_blank" href="https://github.com/giomine"><Image alt={'github'} src={'/icons/github-square.png'} height={30} width={30} /></a>
+          <a target="_blank" href="https://github.com/giomine"><Image alt={'github'} src={'/icons/github-sq-whitee.png'} height={30} width={30} /></a>
           <a target="_blank" href="mailto:giomineo@gmail.com"><Image alt={'gmail'} src={'/icons/gmail.png'} height={30} width={40} /></a>
         </div>
         
