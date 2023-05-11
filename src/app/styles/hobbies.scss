@@ -7,15 +7,38 @@
   }
   .grid{
     display: grid;
-    div{
+    .grid-div{
       max-width: 500px;
+      margin-bottom: 60px;
+    }
+    .grid-div:last-of-type{
+      margin-bottom: 0;
+    }
+    .hobby-logo{
+      height: 60px;
+      width: 60px;
+      background-position: center;
+      background-size: cover;
+      // margin: 0 auto;
+    }
+    .cycle{
+      background-image: url('/hobbies/cycle.png');
+    }
+    .langs{
+      background-image: url('/hobbies/lang.png');
+    }
+    .gaming{
+      background-image: url('/hobbies/game.png');
     }
     @media (min-width: 1000px){
       grid-template-columns: 1fr 1fr 1fr;
       gap: 0 90px;
       text-align: justify;
+      .grid-div{
+        margin-bottom: 0;
+      }
     }
-    div{
+    .grid-div{
       h3{
         margin: 20px 0;
       }
