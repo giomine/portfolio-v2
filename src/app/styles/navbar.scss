@@ -93,6 +93,10 @@
   }
 }
 
+.animate__animated.animate__slideInRight {
+  --animate-duration: 0.2s;
+}
+
 
 // ! Desktop navbar
 @media (min-width: 700px){

@@ -18,7 +18,7 @@ export default function Navbar(){
         <div className='burger' onClick={handleClick}></div>
         { dropdown === true ? 
         (
-        <div className='nav-links'>
+        <div className='nav-links animate__animated animate__slideInRight'>
           <Link onClick={handleClick} href={'#about'}>About</Link>
           <Link onClick={handleClick} href={'#experience'}>Experience</Link>
           <Link onClick={handleClick} href={'#skills'}>Skills</Link>
