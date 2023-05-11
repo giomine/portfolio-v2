@@ -113,6 +113,11 @@
 
 
 
+@media (max-width: 1000px){
+  .buttons{
+    margin-top: 20px;
+  }
+}
 @media (max-width: 535px){
   .buttons{
     margin-top: -40px;
@@ -128,11 +133,11 @@
     margin-top: -100px;
   }
 }
-@media (min-width: 600px){
-  .buttons{
-    margin-top: 20px;
-  }
-}
+// @media (min-width: 600px){
+//   .buttons{
+//     margin-top: 20px;
+//   }
+// }
 
 
 
@@ -156,9 +161,9 @@
     .photo-buttons{
       align-items: flex-start;
     }
-    .photo{
-      background-position: left;
-    }
+    // .photo{
+      // background-position: left;
+    // }
     .text{
       align-items: flex-end;
       margin-left: 20px;
@@ -174,9 +179,9 @@
     .photo-buttons{
       align-items: flex-end;
     }
-    .photo{
-      background-position: right;
-    }
+    // .photo{
+      // background-position: right;
+    // }
     .text{
       align-items: flex-start;
       margin-right: 20px;
