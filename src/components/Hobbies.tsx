@@ -10,7 +10,7 @@ const Hobbies = () => {
           <div className='grid-div'>
             <div className='hobby-logo cycle'></div>
             <h3>Cycling</h3>
-            <p>I love exploring nature and cityscapes, and I collect photos of beautiful scenery - especially in Lincolnshire!</p>
+            <p>I love exploring nature and cityscapes, and I collect photos of beautiful scenery - especially countryside views and architecture. There is always something new to see!</p>
           </div>
 
           <div className='grid-div'>
@@ -22,7 +22,7 @@ const Hobbies = () => {
           <div className='grid-div'>
             <div className='hobby-logo gaming'></div>
             <h3>Gaming</h3>
-            <p>Games are a passion for a similar reason as the above - they are an amazing way to have new experiences! As a player you get to explore so many imaginative worlds and stories along with beautiful artwork and music.</p>
+            <p>Games are my passion for the same reasons - exploration and new experiences. As a player you get to explore so many imaginative worlds and stories along with beautiful artwork and music.</p>
           </div>
         </div>
 
