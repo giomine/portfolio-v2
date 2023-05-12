@@ -1,5 +1,9 @@
 @import './variables.scss';
 
+html{
+  scroll-behavior: smooth !important;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
