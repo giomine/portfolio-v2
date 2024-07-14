@@ -8,7 +8,7 @@ const Hero = () => {
         <div className='hello'>
           <p className='animate__animated animate__fadeInDown'>Hello, I&apos;m</p>
           <h1 className='animate__animated animate__fadeIn'>Giorgia Mineo</h1>
-          <h2 className='animate__animated animate__fadeIn'>Junior Software Engineer</h2>
+          <h2 className='animate__animated animate__fadeIn'>Software Engineer</h2>
           <p className='animate__animated animate__fadeInUp'>I build things for the web</p>
         </div>
 
